@@ -56,6 +56,9 @@ nav li a{
 	font-size: 30px;
 
 }
+em{
+	color: red;
+}
 p em{
 	font-size: 25px;
 }
@@ -107,76 +110,84 @@ height: 300px;
 }
 /* css flexbox*/
 
-.tituloPrincipal{
- 	display: flex;
- 	font-size: 50px;
- 	justify-content: center;
- 	background: #F5F5F5;
+.hobbiesSkills{
+ 	text-align: center;
+ 	
  }
- .areasklls{
- 	font-size: 20px;
- 	padding: 20px;
- 	background: lightcoral;
+ .skills .tituloPrincipal{
+ 	padding-top: 3.2rem;
+text-align: center;
  }
- .listasklls{
+ .tituloPrincipal{
+ 	color: #464646;
+ 	font-size: 3.2rem;
+ 	font-weight: 700;
+ 	line-height: 3.75rem;
+text-align: center;
+ }
+
+ 
+ .areaSkills .areaHobbies{
+ 	padding:3.2rem 0 8rem 0 ;
+
+
+ }
+ .areaSkills{
+display: flex;
+ 	justify-content: space-between;
+ }
+ .areaHobbies{
  	display: flex;
  	justify-content: space-around;
  	padding: 60px;
- 	list-style: none;
-
+ 	
  }
- .conteudoItem1{
- 	padding: 20px;
- 	width: 30px;
- 	height: 30px;
- }
- .Hobbies{
-
-text-align: center;
- }
- .tituloPrincipal2{
+ .listaSkills .listaHobbies{
  	display: flex;
- 	font-size: 50px;
+ 	justify-content: space-between;
+
+ }
+ .itens-sklls1{
+ 	display: flex;
+ 	justify-content: space-end;
+ }
+ /*	display: flex;{
+ 
+ 	justify-content:space-between ;
+ }*/
+ ul{
+ 	display: flex;
+ 	list-style: none;
  	justify-content: center;
-
+ 	background: #lightgrey;
  }
- .secaoHobbies{
- 	display: flex;
+ .conteudoItem{
+ 	padding: 9.4rem _1.6rem _1.6rem _1.6rem;
+ 	background: #FFFFFF;
+ 	display: inline;
+ 	flex-direction: nowrap;
+ 	justify-content: flex-start;
+ 	width: 14,4rem;
  }
- .listaHobbies{
- 	list-style: none;
- }
- .areaHobbies{
-	display: flex;
-	justify-content: space-around;
-padding: 60px;
-margin: 30px;
-
-}
-.projeto_descricao{
-	font-size: 2opx;
-}
-.projeto_detalhe{
-	margin-left: 30px;
-}
-.foto1{
+ 
+.icone{
 	Skkil.png
 	padding: 10px;
 }
-.foto2{
+.icone{
 	Skill1.png
 }
-.foto3{
+.icone{
 
 cosinhar.png
 }
-.foto4{
+.icone{
 foto
 }
-.foto5{
+.icone{
 musica.png
 }
-.foto6{
+.icone{
 series.png
 }
 
@@ -206,6 +217,7 @@ imagemalura.png
 .imagemalura{
 background: rgb(255, 255, 255);
 padding: 30px;
+width: 1000px;
 height: 400px;	
 }
 .formacao-academica{
