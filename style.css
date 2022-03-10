@@ -1,0 +1,261 @@
+body{
+	background: #F5F5F5;
+	text-align:no center;
+}
+
+
+.navegacao {
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;	
+
+	}
+.itens {
+	text-decoration: none;
+	display: inline ;	
+	margin: 0 30px 0;
+	
+}
+.imagemPerfil{
+
+position: relative;
+border-radius: 50%;
+width: 368px;
+height: 368px;
+
+}
+
+.divisao1{
+display: inline;
+list-style:none;
+
+}
+.navegacao1{
+
+font-size: 22px;
+	font-weight: bold;
+}
+.itens1{
+	display: inline;
+font-size: 22px;
+	font-weight: bold;
+padding:40px ;
+
+}
+.itens1:after {
+content:"🡽";
+
+	
+}
+
+
+nav li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	font-size: 30px;
+
+}
+p em{
+	font-size: 25px;
+}
+p em strong {
+	color: rgb(80, 80, 240);
+	font-size: 30px;
+}
+.divisao2{
+text-align: center;
+font-weight: bold;
+}
+.navegacao2{
+font-size: 22px;
+	font-weight: bold;
+}
+.itens2{
+
+}
+.divisao3{
+text-align: center;
+font-size: 25px;
+font-weight: bold; 
+}
+.navegacao3{
+background: #EAF2FD;
+padding: 0 30px;
+height: 300px;
+
+}
+.itens3{
+
+}
+#estrela:before {
+	display: inline;
+	font-size: 50px;
+	content:"✫ ";
+	color: blue;
+}
+
+ .vermelha {
+ 	color: rgb(250, 0, 0);
+ }
+
+.sobre{
+	background:#EAF2FD ;
+	margin: 100px;
+	font-size: 25px;
+
+}
+/* css flexbox*/
+
+.tituloPrincipal{
+ 	display: flex;
+ 	font-size: 50px;
+ 	justify-content: center;
+ 	background: #F5F5F5;
+ }
+ .areasklls{
+ 	font-size: 20px;
+ 	padding: 20px;
+ 	background: lightcoral;
+ }
+ .listasklls{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	padding: 60px;
+ 	list-style: none;
+
+ }
+ .conteudoItem1{
+ 	padding: 20px;
+ 	width: 30px;
+ 	height: 30px;
+ }
+ .Hobbies{
+
+text-align: center;
+ }
+ .tituloPrincipal2{
+ 	display: flex;
+ 	font-size: 50px;
+ 	justify-content: center;
+
+ }
+ .secaoHobbies{
+ 	display: flex;
+ }
+ .listaHobbies{
+ 	list-style: none;
+ }
+ .areaHobbies{
+	display: flex;
+	justify-content: space-around;
+padding: 60px;
+margin: 30px;
+
+}
+.projeto_descricao{
+	font-size: 2opx;
+}
+.projeto_detalhe{
+	margin-left: 30px;
+}
+.foto1{
+	Skkil.png
+	padding: 10px;
+}
+.foto2{
+	Skill1.png
+}
+.foto3{
+
+cosinhar.png
+}
+.foto4{
+foto
+}
+.foto5{
+musica.png
+}
+.foto6{
+series.png
+}
+
+
+
+/*formação academica*/
+
+
+
+
+.formacao-academica_tituloPrincipal{
+color: #464646;
+font-size: 60px;
+font-weight: 700;
+text-align:center ;
+margin-bottom: 15px;
+
+
+}
+.imagemalurapng{
+imagemalura.png
+}
+.formacoes{
+	text-align: center;
+	font-size: 30px;
+}
+.imagemalura{
+background: rgb(255, 255, 255);
+padding: 30px;
+height: 400px;	
+}
+.formacao-academica{
+	background-color: EAF2FD;
+
+}
+.projeto_titulo{
+	display: flex;
+	font-size: 20px;
+text-decoration: none;
+
+}
+.projeto_linguagen-imagem{
+
+	display: flex;
+	width: 4rem;
+	text-decoration: none;
+}
+.projeto{
+	display: flex;
+	justify-content: center;
+	
+	text-decoration: none;
+}
+.projeto_imagem{
+	display: flex;
+	width: 700pxpx;
+	height: 400px;
+	justify-content: safe left;
+	text-decoration: none;
+}
+.projeto__botao--repositorio{
+	background:#F5F5F5;
+	padding: 30PX;
+	border:0.1rem solid #2A7AE4 ;
+	font-style: none;
+}
+.projeto__botao--ver-demo  {
+	padding: 30px;
+	background: #2A7AE4;
+	border: none;
+	padding: 1.6rem;
+	font-weight: 400;
+	
+}
+.projeto_detalhe{
+	display:inline;
+	justify-items:center ;
+	margin-bottom: 300px;
+}
+.projeto_imagem{
+	width: ;
+}
