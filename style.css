@@ -1,6 +1,7 @@
 body{
-	background: #F5F5F5;
+	/*background: #F5F5F5;*/
 	text-align:no center;
+	background-image: linear-gradient(to yellow ,green,red ,blue);
 }
 
 
@@ -259,6 +260,7 @@ a {
 	background: #2a7ae433;
 	padding-bottom: 80px;
 	padding-left: 50px;
+	background-image: liner-gradient rgb(0 15 15);
 }
 
 .projeto{
