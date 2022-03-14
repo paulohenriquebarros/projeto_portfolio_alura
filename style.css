@@ -13,8 +13,8 @@ body{
 .itens {
 	text-decoration: none;
 	display: inline ;	
-	margin: 0 5px 0;
-	
+	margin: 0 30px ;
+	background: none;
 }
 .imagemPerfil{
 
@@ -40,10 +40,11 @@ font-size: 22px;
 font-size: 22px;
 	font-weight: bold;
 padding:40px ;
+background: none;
 
 }
 .itens1:after {
-content:"🡽";
+content:"";
 
 	
 }
@@ -54,6 +55,7 @@ nav li a{
 	font-weight: bold;
 	color: #000000;
 	font-size: 30px;
+	color: #03a9f4b5;
 
 }
 em{
@@ -69,6 +71,7 @@ p em strong {
 .divisao2{
 text-align: center;
 font-weight: bold;
+background: #2a7ae433;
 }
 .navegacao2{
 font-size: 22px;
@@ -113,6 +116,7 @@ margin-top: 50px;
 
 .hobbiesSkills{
  	text-align: center;
+
  	
  }
  .skills .tituloPrincipal{
@@ -120,7 +124,7 @@ margin-top: 50px;
 text-align: center;
  }
  .tituloPrincipal{
- 	color: #464646;
+ 	color: #03a9f4b5;
  	font-size: 3.2rem;
  	font-weight: 700;
  	line-height: 3.75rem;
@@ -141,6 +145,7 @@ display: flex;
  	display: flex;
  	justify-content: space-around;
  	padding: 60px;
+ 	background: #2a7ae433;
  	
  }
  .listaSkills .listaHobbies{
@@ -160,7 +165,9 @@ display: flex;
  	display: flex;
  	list-style: none;
  	justify-content: space-around;
- 	background: #lightgrey;
+ 	background: #2a7ae433;
+ 	padding-top: 20px;
+
  }
  .conteudoItem{
  	padding: 9.4rem _1.6rem _1.6rem _1.6rem;
@@ -200,7 +207,7 @@ series.png
 
 
 .formacao-academica_tituloPrincipal{
-color: #464646;
+color: #03a9f4b5;
 font-size: 60px;
 font-weight: 700;
 text-align:center ;
@@ -214,7 +221,7 @@ imagemalura.png
 .formacoes{
 	text-align: center;
 	font-size: 30px;
-	background: #eaf2fd;
+	background: #2a7ae470;
 	padding-top: 70px;
 }
 .imagemalura{
@@ -247,10 +254,13 @@ a {
 	justify-content: center;
 	font-weight: bold;
 	text-decoration: none;
-	margin-top: 40px;
+	padding-top: 80px;
+	background: #2a7ae433;
+	padding-bottom: 80px;
+	padding-left: 50px;
 }
-.projeto:nth-cihld(2n);
-.proje__detalhes{
+
+.projeto{
 	order: -1;
 }
 .projeto_imagem{
@@ -332,7 +342,7 @@ p{
 	font-size: 30px;
 	font-weight: bold;
 	font-style: italic;
-	padding: 100px;
+	padding: 10px;
 }
 .contato__formulario--mensagem{
 	padding: 10px 212px;
