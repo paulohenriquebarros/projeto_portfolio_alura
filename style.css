@@ -59,10 +59,11 @@ nav li a{
 
 }
 em{
-	color: red;
+	color: gr;
 }
-p em{
+p {
 	font-size: 25px;
+
 }
 p em strong {
 	color: rgb(80, 80, 240);
