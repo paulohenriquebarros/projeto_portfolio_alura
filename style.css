@@ -1,8 +1,25 @@
 body{
-	/*background: #F5F5F5;*/
-	text-align:no center;
-	background-image: linear-gradient(to yellow ,green,red ,blue);
+	box-sizing: border-box;
+	background: #F5F5F5;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	text-align: center;
+	
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+	
 }
+.html{
+
+	    width: 100%;
+
+	    
+}
+}
+
+
+
 
 
 .navegacao {
@@ -14,7 +31,7 @@ body{
 .itens {
 	text-decoration: none;
 	display: inline ;	
-	margin: 0 30px ;
+	margin: 0 10px ;
 	background: none;
 }
 .imagemPerfil{
@@ -45,7 +62,7 @@ background: none;
 
 }
 .itens1:after {
-content:"";
+content:"🡵";
 
 	
 }
@@ -56,11 +73,11 @@ nav li a{
 	font-weight: bold;
 	color: #000000;
 	font-size: 30px;
-	color: #03a9f4b5;
+	
 
 }
 em{
-	color: gr;
+	font-size: 28px;
 }
 p {
 	font-size: 25px;
@@ -73,7 +90,7 @@ p em strong {
 .divisao2{
 text-align: center;
 font-weight: bold;
-background: #2a7ae433;
+background: #f5f5f5;
 }
 .navegacao2{
 font-size: 22px;
@@ -116,49 +133,108 @@ margin-top: 50px;
 }
 /* css flexbox*/
 
-.hobbiesSkills{
- 	text-align: center;
 
  	
- }
- .skills .tituloPrincipal{
- 	padding-top: 3.2rem;
-text-align: center;
- }
- .tituloPrincipal{
+ 
+ 
+/* .tituloPrincipal1{
+ 	display: flex;
  	color: #03a9f4b5;
  	font-size: 3.2rem;
  	font-weight: 700;
  	line-height: 3.75rem;
-text-align: center;
- }
-
- 
- .areaSkills .areaHobbies{
- 	padding:3.2rem 0 8rem 0 ;
-
+ 	align-items: center;
 
  }
- .areaSkills{
+ .tituloPrincipal2{
 display: flex;
- 	justify-content: space-between;
- }
- .areaHobbies{
+color: #03a9f4b5;
+font-size: 3.2rem;
+ 	font-weight: 700;
+ 	line-height: 3.75rem;
+ 	align-items: center;
+
+ }*/
+
+
+.{
+	border-box
+}
+
+ .contaier{
  	display: flex;
- 	justify-content: space-around;
- 	padding: 60px;
- 	background: #2a7ae433;
- 	
- }
- .listaSkills .listaHobbies{
- 	display: flex;
- 	justify-content: space-between;
+ 	max-width: 960px;
+ width: 70%;
+ padding-left:15px ;
+ padding-left: 15px;
+margin-left:auto ;
+margin-right: auto; 
+box-sizing: box-sizing;
 
  }
- .itens-sklls1{
- 	display: flex;
- 	justify-content: space-end;
- }
+.text-center{
+	text-align: center;
+
+}
+.row{
+	display: inline-block;
+	
+	padding: 32px;
+	margin-left: 15px;
+	margin-right: -15px;
+	width: 300px;
+	
+}
+.card{
+	position: relative;
+	font-display: flex;
+}	
+.skills{
+	display:block ;
+}
+#skills{
+background: #9e9e9e24;
+	}
+#hobbies{
+	background: #eaf2fd;
+	padding: 120;
+}	
+}
+#skill-titulo{
+	
+font-weight: 700;
+font-size: 200%;
+
+}
+#hobbies-titulo{
+	font-weight: 700;
+	font-size: 200%;
+}
+.offset-lg-3{
+	
+	margin-top: 60px;
+}
+.col-lg-6{
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.card-img-top1{
+	width: 248px;
+}
+
+.card-img-top{
+width: 70px;
+    padding: 49px;
+
+	width: 100px;
+}
+
+
+
+
+
+
+
  /*	display: flex;{
  
  	justify-content:space-between ;
@@ -180,61 +256,51 @@ display: flex;
  	width: 14,4rem;
  }
  
-.icone{
-	Skkil.png
-	padding: 10px;
+.card-img-top{	
+	padding: 10px;	
 }
-.icone{
-	Skill1.png
-}
-.icone{
-
-cosinhar.png
-}
-.icone{
-foto
-}
-.icone{
-musica.png
-}
-.icone{
-series.png
-}
-
 
 
 /*formação academica*/
 
 
+.tituloPrincipal{
+	font-size: 36px;
 
+}
 
 .formacao-academica_tituloPrincipal{
-color: #03a9f4b5;
-font-size: 60px;
+color: #000000;
+font-size:36px;
 font-weight: 700;
 text-align:center ;
 margin-bottom: 15px;
 
 
 }
-.imagemalurapng{
-imagemalura.png
-}
+
 .formacoes{
 	text-align: center;
 	font-size: 30px;
-	background: #2a7ae470;
+	background: #9e9e9e24;
 	padding-top: 70px;
 }
-.imagemalura{
+.Imagemalura{
 background: rgb(255, 255, 255);
 padding: 30px;
-width: 1000px;
+width: 650px;
 height: 400px;	
 }
 .formacao-academica{
 	background-color: EAF2FD;
 
+}
+.formacao_itens{
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 .projeto_titulo{
 	display: flex;
@@ -257,15 +323,13 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	padding-top: 80px;
-	background: #2a7ae433;
+	background: #EAF2FD;
 	padding-bottom: 80px;
 	padding-left: 50px;
 	background-image: liner-gradient rgb(0 15 15);
 }
 
-.projeto{
-	order: -1;
-}
+
 .projeto_imagem{
 	display: flex;
 	width: 700pxpx;
@@ -295,10 +359,159 @@ a {
 }
 .projeto_imagem{
 	width: ;
+
 }
 
 
-/*fomulariocontato*/
+
+
+/*container*/
+section.formcontato{
+background-color:#eaf2fd;
+
+}
+section.formcontato div.contact{
+display: flex;
+padding: 64px;
+
+}
+section.formcontato div.esquerda img.imagemcontato.png{
+	display: block;
+	width:464px ;
+	height:570px ;
+}
+
+section.formcontato div.contact-text{
+	display: flex;
+    width: -1px;
+    flex-direction: column;
+    padding: 0 0 0 30px;
+}
+.contact-title{
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.contact-subtext{
+	font-weight: 500px;
+	font-size: 16px;
+	line-height: 25px;
+	margin: 0;
+}
+.cotato-input{
+	border: transparent;
+	height: 56px;
+	margin: 10px 0;
+	width: 55%;
+	border-radius: 15px
+
+}
+.contato-texarea{
+border: transparent;
+	height: 96px;
+	margin: 10px 0;
+	width: 46%;
+	border-radius: 15px
+}
+
+.contato__botao{
+	border: transparent;
+	background-color:#2a7ae4;
+	margin: 25px ;
+	padding: 10px;
+	color: white;
+	border-radius: 15px
+}
+
+
+
+/*repositivo*/
+
+@media(max-width: 940px){
+.body{
+
+
+}
+
+
+.main{
+display: flex;
+flex-direction: column;
+}
+.projeto{
+display: flex;
+flex-direction: column;
+}
+.divisao3{
+padding: 74px;
+
+}
+
+.hobbies-titulo{
+	margin-top: 372px;
+	margin-left: 33px;
+padding-top: 282px;
+}
+
+
+}
+.Imagemalura{
+	
+	flex-direction: column;
+	width: 416px;
+    padding-left: 5px;
+}
+
+
+
+}
+.card-img-top1{
+	padding-top: 36px;
+
+}
+.col-lg-6{
+max-width: 93%;
+padding-top: 274px;
+}
+.contact {
+
+	display: flex;
+	flex-direction: column;
+} 
+.section.formcontato{
+display: flex;
+width: 0 0;
+
+
+}
+.html{
+
+	    width:100px;
+}
+.coteudoprincipal{
+	width: 520px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fomulariocontato
  form label{
  	display: block;
  	font-size: 20px;
@@ -322,7 +535,7 @@ a {
 
 .contato{
 display: flex;
-background: #eaf2fd;
+background: #f5f5f5;
 padding: 12.8rem 15.2 rem 6.55rem 15.2rem;
 margin-top: 30px;
 margin-bottom: 30px;
@@ -353,7 +566,7 @@ p{
 	font-size: 20px;
 	padding-left: 4px;
 	border: 0;
-	color: #2a2a2a;
+	color: #a2a2a2;
 
 }
 .contato__formulario--botao{
