@@ -24,7 +24,7 @@ body{
 
 .navegacao {
 	color: #000000;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;	
 
 	}
@@ -50,12 +50,12 @@ list-style:none;
 }
 .navegacao1{
 
-font-size: 22px;
+font-size: 18px;
 	font-weight: bold;
 }
 .itens1{
 	display: inline;
-font-size: 22px;
+font-size: 18px;
 	font-weight: bold;
 padding:40px ;
 background: none;
@@ -428,20 +428,69 @@ border: transparent;
 /*repositivo*/
 
 @media(max-width: 940px){
-.body{
-
+.navegacao{
+font-size: 18px;
 
 }
 
 
+.navegacao1{
+	font-size: 18px
+}
+.itens1{
+	font-size: 18px
+}
+.nav li a{
+		font-size: 18px
+}
+em{
+		font-size: 18px
+}
+p{
+		font-size: 18px
+}
+.navegacao2{
+		font-size: 18px
+}
+.sobre{
+		font-size: 18px
+}
+.skill-titulo{
+		font-size: 18px
+}
+.hobbies-titulo{
+		font-size: 18px
+}
+.tituloPrincipal{
+		font-size: 18px
+}
+.formacao-academica_tituloPrincipal{
+		font-size: 18px
+}
+.formacoes{
+		font-size: 18px
+}
+.projeto_titulo{
+		font-size: 18px
+}
+.contact-title{
+		font-size: 18px
+}
+.contact-subtext{
+		font-size: 18px
+}
 .main{
 display: flex;
 flex-direction: column;
 }
+
+
 .projeto{
 display: flex;
 flex-direction: column;
 }
+
+
 .divisao3{
 padding: 74px;
 
@@ -464,7 +513,7 @@ padding-top: 282px;
 
 
 
-}
+
 .card-img-top1{
 	padding-top: 36px;
 
@@ -473,27 +522,42 @@ padding-top: 282px;
 max-width: 93%;
 padding-top: 274px;
 }
+
+
 .contact {
 
 	display: flex;
 	flex-direction: column;
 } 
+
+
 .section.formcontato{
 display: flex;
 width: 0 0;
 
-
 }
+
+
+
 .html{
 
 	    width:100px;
 }
+
+
 .coteudoprincipal{
 	width: 520px;
 }
+
+
 .imagemcontato{
 	width: 319px;
 }
+
+
+
+
+
 }
 
 
