@@ -4,23 +4,14 @@ body{
 	margin: 0;
 	padding: 0;
 
-	
 	text-align: center;
 	
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
 	
 }
 .html{
-
-	   /* width: 100%;*/
-
-	    
+    
 }
-}
-
-
-
-
 
 .navegacao {
 	color: #000000;
@@ -31,17 +22,18 @@ body{
 .itens {
 	text-decoration: none;
 	display: inline ;	
-	margin: 0 10px ;
+margin: 0 10px ;
 	background: none;
 }
 .imagemPerfil{
 
 position: relative;
 border-radius: 50%;
-width: 368px;
-height: 368px;
 
+width: 340px;
+ height: 337px;
 }
+
 
 .divisao1{
 display: inline;
@@ -63,10 +55,8 @@ background: none;
 }
 .itens1:after {
 content:"🡵";
-
 	
 }
-
 
 nav li a{
 	text-decoration: none;
@@ -131,31 +121,6 @@ margin-top: 50px;
 	font-size: 25px;
 
 }
-/* css flexbox*/
-
-
- 	
- 
- 
-/* .tituloPrincipal1{
- 	display: flex;
- 	color: #03a9f4b5;
- 	font-size: 3.2rem;
- 	font-weight: 700;
- 	line-height: 3.75rem;
- 	align-items: center;
-
- }
- .tituloPrincipal2{
-display: flex;
-color: #03a9f4b5;
-font-size: 3.2rem;
- 	font-weight: 700;
- 	line-height: 3.75rem;
- 	align-items: center;
-
- }*/
-
 
 .{
 	border-box
@@ -230,15 +195,6 @@ width: 70px;
 }
 
 
-
-
-
-
-
- /*	display: flex;{
- 
- 	justify-content:space-between ;
- }*/
  ul{
  	display: flex;
  	list-style: none;
@@ -260,9 +216,7 @@ width: 70px;
 	padding: 10px;	
 }
 
-
 /*formação academica*/
-
 
 .tituloPrincipal{
 	font-size: 36px;
@@ -275,8 +229,6 @@ font-size:36px;
 font-weight: 700;
 text-align:center ;
 margin-bottom: 15px;
-
-
 }
 
 .formacoes{
@@ -329,10 +281,9 @@ a {
 	background-image: liner-gradient rgb(0 15 15);
 }
 
-
 .projeto_imagem{
 	display: flex;
-	width: 700pxpx;
+	width: 700px;
 	height: 400px;
 	justify-content: safe left;
 	text-decoration: none;
@@ -357,12 +308,6 @@ a {
 	justify-items:center ;
 	margin-left:1.6rem;
 }
-.projeto_imagem{
-	width: ;
-
-}
-
-
 
 
 /*container*/
@@ -423,16 +368,12 @@ border: transparent;
 	border-radius: 15px
 }
 
-
-
 /*repositivo*/
 
 @media(max-width: 940px){
 .navegacao{
 font-size: 18px;
-
 }
-
 
 .navegacao1{
 	font-size: 18px
@@ -484,16 +425,13 @@ display: flex;
 flex-direction: column;
 }
 
-
 .projeto{
 display: flex;
 flex-direction: column;
 }
 
-
 .divisao3{
 padding: 74px;
-
 }
 
 .hobbies-titulo{
@@ -502,8 +440,6 @@ padding: 74px;
 padding-top: 282px;
 }
 
-
-}
 .Imagemalura{
 	
 	flex-direction: column;
@@ -512,18 +448,13 @@ padding-top: 282px;
    
 }
 
-
-
-
 .card-img-top1{
 	padding-top: 36px;
 
 }
 .col-lg-6{
 max-width: 93%;
-padding-top: 274px;
 }
-
 
 .contact {
 
@@ -538,27 +469,22 @@ width: 0 0;
 
 }
 
-
-
 .html{
 
 	    width:100px;
 }
 
-
 .coteudoprincipal{
 	width: 520px;
 }
-
 
 .imagemcontato{
 	width: 200px;
 	height: 200px;
 }
-
-
-
-
+.projeto_imagem{
+	width: 329px
+}
 
 }
 
@@ -579,80 +505,3 @@ width: 0 0;
 
 
 
-/*fomulariocontato
- form label{
- 	display: block;
- 	font-size: 20px;
- 	margin: 0 0 20px;
- 	position: absolute;
- 	left: 540px;
- 	color: #a2a2a2;
- 	font-weight: 400;
-
-
- }
- form input{
- 	display: block;
- 	margin: 0 0 30px;
- 	padding: 10px 150px;
- 	border-radius: 10px;
- 	border: 0;
- 	
-
- }
-
-.contato{
-display: flex;
-background: #f5f5f5;
-padding: 12.8rem 15.2 rem 6.55rem 15.2rem;
-margin-top: 30px;
-margin-bottom: 30px;
-}
-.contato__titulo{
-	
-	display: inline;
-	color: #464646;
-	font-size: 40px;
-	font-weight: 700;
-	margin-bottom: 50px;
-}
-
-.contato__informacoes{
-	margin-left: 1.6rem;
-	padding: 30px;
-	margin-top: 100px;
-}
-p{
-	font-size: 30px;
-	font-weight: bold;
-	font-style: italic;
-	padding: 10px;
-}
-.contato__formulario--mensagem{
-	padding: 10px 212px;
-	border-radius: 10px;
-	font-size: 20px;
-	padding-left: 4px;
-	border: 0;
-	color: #a2a2a2;
-
-}
-.contato__formulario--botao{
-	color: #ffffff;
-	font-size: 1.6rem;
-	font-weight: 400;
-	background: #2a7ae4;
-	border: none;
-	padding: 1.6rem;
-	transition: 0,5s all;
-}
-img{
-	margin: 0;
-}
-.rodape{
-	text-align: center;
-}
-.nomesobrenome{
-	width: 50px;
-}
-tex
