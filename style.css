@@ -372,53 +372,53 @@ border: transparent;
 
 @media(max-width: 940px){
 .navegacao{
-font-size: 18px;
+font-size: 16%;
 }
 
 .navegacao1{
-	font-size: 18px
+	font-size: 100%;
 }
 .itens1{
-	font-size: 18px
+	font-size: 18%;
 }
 .nav li a{
-		font-size: 18px
+		font-size: 96%;
 }
 em{
-		font-size: 18px
+		font-size: 80%;
 }
 p{
-		font-size: 18px
+		font-size: 96%;
 }
 .navegacao2{
-		font-size: 18px
+		font-size: 18%;
 }
 .sobre{
-		font-size: 18px
+		font-size: 18%;
 }
 .skill-titulo{
-		font-size: 18px
+		font-size: 18%;
 }
 .hobbies-titulo{
-		font-size: 18px
+		font-size: 18%;
 }
 .tituloPrincipal{
-		font-size: 18px
+		font-size: 18%;
 }
 .formacao-academica_tituloPrincipal{
-		font-size: 18px
+		font-size: 18%;
 }
 .formacoes{
-		font-size: 18px
+		font-size: 18%;
 }
 .projeto_titulo{
-		font-size: 18px
+		font-size: 18%;
 }
 .contact-title{
-		font-size: 18px
+		font-size: 18%;
 }
 .contact-subtext{
-		font-size: 18px
+		font-size: 18%;
 }
 .main{
 display: flex;
@@ -471,7 +471,7 @@ width: 0 0;
 
 .html{
 
-	    width:100px;
+	    width:100%;
 }
 
 .coteudoprincipal{
@@ -486,6 +486,9 @@ width: 0 0;
 	width: 329px
 }
 
+.paragrafo1{
+	font-size: 698%;
+}
 }
 
 
